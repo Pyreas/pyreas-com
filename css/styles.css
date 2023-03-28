@@ -596,7 +596,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #ffffff;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -4689,8 +4689,8 @@ textarea.form-control-lg {
 
 .card-footer {
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.125);
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -6841,6 +6841,20 @@ textarea.form-control-lg {
 .float-end {
   float: right !important;
 }
+
+.float-child-60 {
+  width: 60%;
+  float: left;
+  padding: 20px;
+  border: 0px solid #000;
+}  
+
+.float-child-40 {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  border: 0px solid #000;
+}  
 
 .float-none {
   float: none !important;
@@ -9962,8 +9976,8 @@ textarea.form-control-lg {
   }
 
   .px-lg-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .py-lg-0 {
@@ -11562,7 +11576,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.7) 75%, #fff 100%), url("../assets/img/V2_Mountain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11573,7 +11587,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.6));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
