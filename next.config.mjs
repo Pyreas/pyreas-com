@@ -5,10 +5,10 @@ const nextConfig   = {
   output: 'export',
   images: {
     loader: 'akamai',
-    path: '/pyreas-com',
+    path: '/.',
   },
   basePath: '/pyreas-com',
-  assetPrefix: '/.',
+  assetPrefix: '/pyreas-com/',
 };
 
 export default   nextConfig;
