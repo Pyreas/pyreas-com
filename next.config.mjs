@@ -8,7 +8,7 @@ const nextConfig   = {
     path: '/pyreas-com',
   },
   basePath: '/pyreas-com',
-  assetPrefix: '/pyreas-com/',
+  assetPrefix: '/.',
 };
 
 export default   nextConfig;
