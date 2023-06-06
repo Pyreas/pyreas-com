@@ -80,7 +80,7 @@ export default function Testimonials() {
 
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-10 mx-4 md:mx-8 border-2 border-gray-200 rounded bg-white sm:w-auto sm:mb-4">
-                <Image className="mx-auto relative rounded-full" src={Etash} width={96} height={96} alt="Testimonial 01" />
+                <Image unoptimized className="mx-auto relative rounded-full" src={Etash} width={96} height={96} alt="Testimonial 01" />
                 
                 <cite className="block font-bold text-lg not-italic mb-1 pt-4">Etash Kalra</cite>
                 <div className="text-gray-600">
@@ -94,7 +94,7 @@ export default function Testimonials() {
 
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-10 mx-4 md:mx-8 border-2 border-gray-200 rounded bg-white sm:w-auto sm:ml-4">
-                <Image className="mx-auto relative rounded-full" src={Hyden} width={96} height={96} alt="Testimonial 01" />
+                <Image unoptimized className="mx-auto relative rounded-full" src={Hyden} width={96} height={96} alt="Testimonial 01" />
                 
                 <cite className="block font-bold text-lg not-italic mb-1 pt-4">Hyden Polikoff</cite>
                 <div className="text-gray-600">
