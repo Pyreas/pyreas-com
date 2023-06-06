@@ -5,7 +5,7 @@ const nextConfig   = {
   output: 'export',
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/pyreas-com',
   },
   basePath: '/pyreas-com',
   assetPrefix: '/pyreas-com/',
