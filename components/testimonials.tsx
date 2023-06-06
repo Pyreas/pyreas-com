@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
-let Etash = '/images/Etash.jpeg'
-let Hyden = '/images/Hyden.jpeg'
+let Etash = 'pyreas-com/images/Etash.jpeg'
+let Hyden = 'pyreas-com/images/Hyden.jpeg'
 
 export default function Testimonials() {
   return (
