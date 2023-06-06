@@ -16,7 +16,7 @@ export default function Logo() {
         </defs>
         <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
       </svg> */}
-      <Image className="mx-auto" unoptimized src={PyreasBlack} width={32} height={32} priority alt="Pyreas" />
+      <Image className="mx-auto" unoptimized src={PyreasBlack} width={32} height={32} alt="Pyreas" />
     </Link>
   )
 }
