@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
-import Etash from '@/public/images/Etash.jpeg'
-import Hyden from '@/public/images/Hyden.jpeg'
+import Etash from '../public/images/Etash.jpeg'
+import Hyden from '../public/images/Hyden.jpeg'
 
 export default function Testimonials() {
   return (
