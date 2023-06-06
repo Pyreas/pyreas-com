@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import PyreasBlack from '@/public/images/pyreas-black.png'
 import Image from 'next/image'
 
+let PyreasBlack = '/images/pyreas-black.png'
 
 export default function Logo() {
   return (
