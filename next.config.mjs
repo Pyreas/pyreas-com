@@ -7,7 +7,7 @@ const nextConfig   = {
     loader: 'akamai',
     path: '/.',
   },
-  basePath: '/pyreas-com',
+  // basePath: '/pyreas-com',
   assetPrefix: '/pyreas-com/',
 };
 
