@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home - Simple',
+  title: 'Pyreas — Unified SIS',
   description: 'Page description',
 }
 
